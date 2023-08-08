@@ -1,3 +1,5 @@
 echo "Генерация ключей"
 
 certbot certonly --webroot -w /data/letsencrypt/ -d {{ host }} -d {{ host }} --non-interactive --agree-tos -m {{ email }}
+
+chwon -R 777:777 /etc/letsencrypt/live /etc/letsencrypt/archive

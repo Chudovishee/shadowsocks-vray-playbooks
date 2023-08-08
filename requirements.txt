@@ -1,7 +1,7 @@
 ansible==4.6.0
 ansible-core==2.11.5
 backports.entry-points-selectable==1.1.0
-cffi==1.14.6
+cffi==1.15.1
 cryptography==35.0.0
 distlib==0.3.3
 filelock==3.3.0
@@ -13,7 +13,7 @@ Pillow==8.3.2
 platformdirs==2.4.0
 pycparser==2.20
 pyparsing==2.4.7
-PyYAML==5.4.1
+PyYAML==6.0.0
 qrcode==7.3.1
 resolvelib==0.5.4
 six==1.16.0
